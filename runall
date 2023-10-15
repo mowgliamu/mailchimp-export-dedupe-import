@@ -1,0 +1,7 @@
+# All commands to be run in order
+python3 prepare_input_export.py > all_segments_info &!
+chmod +x run_export_segment
+./run_export_segments > output_export_segments &!
+python3 deduplication.py > output_deduplication &!
+python3 write_audience_members.py audience.csv > output_create_audience &!
+#python3 write_audience_members.py audience.csv &!

@@ -1,0 +1,11 @@
+# ID, COUNT, OFFSET, COUNTER, MEMBERS, PARTS 
+python3 export_segments.py 454718 150 0 1 125 1
+sleep 100
+python3 export_segments.py 454285 200 0 1 158 1 
+sleep 100
+python3 export_segments.py 454273 200 0 1 161 1
+sleep 100
+python3 export_segments.py 454618 300 0 1 224 1 
+sleep 100
+python3 export_segments.py 454325 300 0 1 673 3
+sleep 100
